@@ -4,7 +4,7 @@ A multi-step user registration web application built for the Woliba React Coding
 
 ## Live demo
 
-> **Replace this URL after deploying to Vercel/Netlify:** `https://your-deployment-url.vercel.app`
+> `https://wlba-fe.vercel.app/`
 
 ## App overview
 
@@ -86,29 +86,51 @@ src/
 
 ## Screenshots
 
-Add screenshots for each step before submission (place under `docs/screenshots/`):
+Registration flow (`docs/screenshots/`):
 
+| Step                  | File                      |
+| --------------------- | ------------------------- |
+| 1 – Company verify    | `step1.png`               |
+| 2 – User details      | `step2.png`               |
+| 3 – OTP               | `step3.png`               |
+| 4 – Profile           | `step4.png`               |
+| 5 – Interests         | `step5.png`               |
+| 6 – Pillars           | `step6.png`               |
+| 7 – Submitting loader | `step7(loading).png`      |
+| 8 – Welcome           | `step8(completed).png`    |
 
-| Step                  | Suggested filename     |
-| --------------------- | ---------------------- |
-| 1 – Company verify    | `step-1-company.png`   |
-| 2 – User details      | `step-2-details.png`   |
-| 3 – OTP               | `step-3-otp.png`       |
-| 4 – Profile           | `step-4-profile.png`   |
-| 5 – Interests         | `step-5-interests.png` |
-| 6 – Pillars           | `step-6-pillars.png`   |
-| 7 – Submitting loader | `step-7-loader.png`    |
-| 8 – Welcome           | `step-8-welcome.png`   |
+### Step 1 – Company verify
 
+![Step 1 – Company verify](./docs/screenshots/step1.png)
 
-## Deployment (Vercel)
+### Step 2 – User details
 
-1. Push the repository to GitHub.
-2. Import the project in [Vercel](https://vercel.com).
-3. Framework preset: **Vite**
-4. Build command: `npm run build`
-5. Output directory: `dist`
-6. Deploy and paste the production URL above.
+![Step 2 – User details](./docs/screenshots/step2.png)
+
+### Step 3 – OTP
+
+![Step 3 – OTP](./docs/screenshots/step3.png)
+
+### Step 4 – Profile
+
+![Step 4 – Profile](./docs/screenshots/step4.png)
+
+### Step 5 – Interests
+
+![Step 5 – Interests](./docs/screenshots/step5.png)
+
+### Step 6 – Pillars
+
+![Step 6 – Pillars](./docs/screenshots/step6.png)
+
+### Step 7 – Submitting loader
+
+![Step 7 – Submitting loader](./docs/screenshots/step7%28loading%29.png)
+
+### Step 8 – Welcome
+
+![Step 8 – Welcome](./docs/screenshots/step8%28completed%29.png)
+
 
 API calls use same-origin `/v1`, proxied to `https://dev.api.woliba.io` via `vercel.json` on Vercel and via `vite.config.js` locally (avoids CORS).
 

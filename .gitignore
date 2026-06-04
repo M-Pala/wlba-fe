@@ -21,3 +21,6 @@ npm-debug.log*
 
 # Vite
 *.local
+
+node_modules/
+dist/
