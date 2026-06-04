@@ -110,7 +110,7 @@ Add screenshots for each step before submission (place under `docs/screenshots/`
 5. Output directory: `dist`
 6. Deploy and paste the production URL above.
 
-API calls in production go directly to `https://dev.api.woliba.io/v1` (configured in `src/api/httpClient.js`). Local `dev` and `preview` use the Vite proxy on localhost to avoid CORS.
+API calls use same-origin `/v1`, proxied to `https://dev.api.woliba.io` via `vercel.json` on Vercel and via `vite.config.js` locally (avoids CORS).
 
 ## Assumptions
 
